@@ -26,6 +26,7 @@ most important part. Add your answer to this markdown file.
 The steps of this algorithm are:
 1. Generate all permutations. This will always generate n! permutations with a runtime of n!
 2. Iterate over permutations to check if they are sorted. This will iterate over all n! permutations on the worst case
+
 	3. Iterate over permutation to check if it is sorted. This will have a linear runtime of n
 
 The runtime equation is: $T(n) = n! + (n! \cdot n)$
